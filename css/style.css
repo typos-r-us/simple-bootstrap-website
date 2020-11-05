@@ -1,0 +1,211 @@
+body{
+  /*Basic settings for the page  */
+  font-family: "Calibri Light", sans-serif;
+  background-color: #000000;
+  color: ghostwhite;
+  text-shadow: 1px 1px #aaa;
+  text-align: center;
+}
+/*header{*/
+/*  width: 100%;*/
+/*  !*height: 10%;*!*/
+/*  display: block;*/
+/*}*/
+#main-header{
+  width: 100vw;
+  background-color: #2B2B2B;
+  height: auto;
+  /*position: absolute;*/
+  /*z-index: 1;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*padding: 0;*/
+  /*margin: 0;*/
+}
+#main-navigation{
+  position: fixed;
+  width: 100%;
+  /*height: 150px;*/
+  display: block;
+}
+/*#spacer{*/
+/*  margin: 1px;*/
+/*  padding: 1px;*/
+/*}*/
+#artist-bio{
+  text-shadow: none ;
+  font-size: larger;
+}
+.sticky{
+  width:100vw;
+  display: block;
+  position: fixed;
+}
+.main-navigation a{
+  color: #cccccc;
+  text-shadow: 0 0;
+  display: inline-block; /*start here*/
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none; /*end here*/
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline-block;
+  float: left;
+  margin: 1px;
+  padding: 1px;
+}
+nav li:hover{
+  margin: 3px;
+  padding: 2px;
+}
+
+.parallax-section-1, .parallax-section-2, .parallax-section-3{
+  /*Basic parallax settings*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-section-1 {
+  /* The image used */
+  background-image: url('http://localhost/assignment-bootstrap/img/2048/section-1.jpg');
+  /* Set a specific height */
+  height: 100vh;
+}
+.parallax-section-2 {
+  /* The image used */
+  background-image: url('http://localhost/assignment-bootstrap/img/2048/section-2.jpg');
+  /* Set a specific height */
+  height: 100vh;
+}
+.parallax-section-3{
+  /* The image used */
+  background-image: url('http://localhost/assignment-bootstrap/img/2048/section-3.jpg');
+  /* Set a specific height */
+  height: 100vh;
+}
+.header-text, .product-text, #contacts-about{
+  font-family: poppins, sans-serif;
+  text-transform: uppercase;
+  font-size: larger;
+  /*width: 100%;*/
+}
+.product-row {
+  width: 100%;
+  position: center;
+  text-shadow: none;
+}
+/* Clear floats after the columns */
+.product-row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-1-4, .col-2-4, .col-3-4, .col-4-4{
+  width: 20%;
+  float: none;
+  display: inline-block;
+}
+/*.product-col{*/
+/*  width: 20%;*/
+/*  float: none;*/
+/*  display: inline-block;*/
+/*}*/
+.col-1-4{}
+.col-2-4{}
+.col-3-4{}
+.col-4-4{}
+.album-title{}
+.album-art{
+  max-width: 200px;
+  height: auto;
+}
+@media screen and (max-width: 600px){
+  .parallax-section-1, .parallax-section-2, .parallax-section-3 {
+    height: auto;
+  }
+  .album-art{
+    max-width: 100px;
+    height: auto;
+  }
+}
+/*SHOPPING CART PAGE*/
+.cart-container{
+  text-shadow: none;
+  max-width: 65vw;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.cart-header{
+  width: 100%;
+  max-width: 65vw;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+.cart-item-title{
+  width: 45%;
+  border-bottom: 4px solid lightgray;
+  display: flex;
+  align-items: flex-start;
+}
+.cart-item-price{
+  width: 15%;
+  border-bottom: 4px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.cart-item-quantity{
+  width: 15%;
+  border-bottom: 4px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.cart-item-totals{
+  width: 10%;
+  border-bottom: 4px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.cart-items{
+  width: 100%;
+  max-width: 65vw;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+.title{
+  width: 45%;
+  border-bottom: 4px solid lightgray;
+  display: flex;
+  align-items: flex-start;
+}
+.price{
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.quantity{
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.total{
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
