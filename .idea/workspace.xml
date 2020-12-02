@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe94d9e8-9f00-4e07-8c21-5918376d7a28" name="Default Changelist" comment="" />
+    <list default="true" id="fe94d9e8-9f00-4e07-8c21-5918376d7a28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/cartstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrapredesign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assignment-23-oct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-23-oct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carttest.html" beforeDir="false" afterPath="$PROJECT_DIR$/carttest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +24,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProblemsViewState">
     <hideBySeverity>
@@ -24,6 +45,7 @@
     </hideBySeverity>
   </component>
   <component name="ProjectId" id="1jHlJ07q3DWzL32VftVgSM7p5Va" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +57,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +82,13 @@
       <workItem from="1604056674045" duration="3316000" />
       <workItem from="1604159700526" duration="16662000" />
       <workItem from="1604501343271" duration="3154000" />
-      <workItem from="1604581236942" duration="3476000" />
+      <workItem from="1604581236942" duration="7514000" />
+      <workItem from="1605511232356" duration="13000" />
+      <workItem from="1605607219058" duration="134000" />
+      <workItem from="1606738967365" duration="19000" />
+      <workItem from="1606739171969" duration="21000" />
+      <workItem from="1606755436565" duration="19523000" />
+      <workItem from="1606830224660" duration="3186000" />
     </task>
     <servers />
   </component>
@@ -67,13 +96,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604593806111">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1604593806111" />
     <state x="463" y="113" key="FileChooserDialogImpl" timestamp="1603621483514">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="113" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1603621483514" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1604059840570">
+    <state x="184" y="14" key="SettingsEditor" timestamp="1606764590825">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1606764590825" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1606764419645">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1606764419645" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1604059840570" />
   </component>
 </project>

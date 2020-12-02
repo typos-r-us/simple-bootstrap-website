@@ -47,7 +47,7 @@ function cartCounter(product){
     localStorage.setItem('cartCounter', productCount + 1);
     document.querySelector('.cart span').textContent = productCount + 1;
   }else {
-    localStorage.setItem('cartCounter', 1)
+    localStorage.setItem('cartCounter', 1);
     document.querySelector('.cart span').textContent = 1;
   }
   setCartItems(product);
@@ -56,7 +56,7 @@ function cartCounter(product){
 function setCartItems(item){
   let cartItems = localStorage.getItem('productCount');
   cartItems = JSON.parse(cartItems);
-  // console.log('My cart items are: ', cartItems);
+  console.log('My cart items are: ', cartItems);
   if (cartItems != null){
     if(cartItems[item.tag] == undefined){
       cartItems = {
@@ -86,6 +86,7 @@ function cartTotal(item){
   }
   // console.log("The Cart Value is: ", cartValue);
 }
+
 function displayCart(){
   let shoppingBag = localStorage.getItem('productCount');
   shoppingBag = JSON.parse(shoppingBag);
@@ -95,19 +96,21 @@ function displayCart(){
     cartContainer.innerHTML = '';
     Object.values(shoppingBag).map(item => {
       cartContainer.innerHTML += `
-      <div class="title">
-<!--        <ion-icon ></ion-icon>-->
-        <img src="http://localhost/assignment-bootstrap/img/cart-img/${item.tag}.jpg">
-        <span>${item.name}</span>
+      <div class="col-sm-2 title">
+        <img src="http://localhost/assignment-bootstrap/img/cart-img/${item.tag}.jpg" alt="product image">
+        <span>
+          ${item.name}
+        </span>
       </div>
-      <div class="price">${item.price}</div>
-      <div class="quantity">
-            ${item.inCart}
+      <div class="col-sm-2 price">
+        ${item.price}
+      </div>
+      <div class="col-sm-2 quantity">
+        ${item.inCart}
       </div>
       `
     });
   }
-
 }
 onLoadCartQuantity();
 displayCart();

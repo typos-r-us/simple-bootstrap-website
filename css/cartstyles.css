@@ -1,0 +1,25 @@
+/*cartstyles*/
+.title{
+  width: 45%;
+  border-bottom: 4px solid lightgray;
+  display: flex;
+  align-items: flex-start;
+}
+.price{
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.quantity{
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.total{
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}

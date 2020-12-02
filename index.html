@@ -1,52 +1,65 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>The Underground Boys Band - Official Site</title>
-  <meta name="description" content="The home page of The Underground Boys Band website.">
+  <title>T.U.B.B - Official Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="The homepage of The Unknown Boys Band website.">
   <link rel="apple-touch-icon" href="http://localhost/assignment-bootstrap/favicon-225.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="http://localhost/assignment-bootstrap/css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<!--  add the link to the JS shopping cart script-->
-  <script src="js/main.js" async></script>
-  <meta name="theme-color" content="#fafafa">
-</head>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous">
+
+  <link rel="stylesheet" href="http://localhost/assignment-bootstrap/css/bs-styles.css">
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>-->
+  <!--Load JS (jQuery, Popper)-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+          integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+          crossorigin="anonymous" async></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+          integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+          crossorigin="anonymous" async></script>
+  <!--End Load JS-->
+<!--  Load main.js-->
+  <script src="js/main.js" async></script>
+</head>
 <body>
-<header id="main-header">
-  <div class="sticky">
-  <nav id="main-navigation" class="main-navigation">
-    <ul>
-      <li>
-        <a href="#artist-info">Artist Info</a>
-      </li>
-      <li>
-        <a href="#music-store">Buy Music</a>
-      </li>
-      <li>
-        <a href="#contacts-about">Contacts and About</a>
-      </li>
-      <li class="cart">
-        <a href="cart.html">Cart: </a><span>0</span>
-      </li>
-    </ul>
-  </nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="#artist-info">Artist Info <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#music-store">Buy Music</a>
+      <a class="nav-link" href="#contacts-about">Contacts and About</a>
+      <div class="cart">
+        <a class="nav-link" href="carttest.html" tabindex="-1" aria-disabled="true">Cart Items: </a>
+        <span style="color: #aaaaaa">0</span>
+      </div>
+    </div>
   </div>
-</header>
+</nav>
+
 <div class="container">
-  <div class="parallax-section-1" id="artist-info">
-    <div class="header-text">
-      <h2>
-        The Underground Boys Band
+  <div class="row mb-0" id="artist-info">
+    <div class="row" id="artist-title">
+      <h2 class="display-3">
+        The Unknown Boys Band
       </h2>
     </div>
-    <h2>
-      Main Artist Info
-    </h2>
     <p id="artist-bio">
-      One of Africa's musical gems, The Underground Boys Band, has released a new project titled 'Trends: Mr. Jones and Me',
+      One of Africa's musical gems, The Unknown Boys Band, has released a new project titled 'Trends: Mr. Jones and Me',
       a 10-track album they say will take the international market by storm. <br><br>
       Monkey told Forbes last week, "The album is a fusion of benga and afro-jazz. Here, we try to capture all the tribes
       in Kenya. There are songs of many Kenyan tribes. It started as an afro Jazz band. We wanted to reach our audience
@@ -62,7 +75,7 @@
 
       "We want to take Kenyan music in the international market. There has been a perception that Kenya doesn't have
       music that can be played outside, and having toured with bands like Les Mangelepa, Eric Wainaina, I saw there was a
-      big potential just that sometimes, we don't package ourselves properly," Ricky said.<br><br>
+      big potential just that sometimes, we don't package ourselves properly," Monkey said.<br><br>
 
       "We try to do things half baked and concentrate so much on marketing. For us, we concentrate on both. We are set
       to take it to the international market."
@@ -79,61 +92,122 @@
       awesome experience. "I learnt that people strive to be good and not compete. Here, we are competing at who is better
       than the other."
 
-      The Underground Boys Band began their musical journey in 2010. It was a four-piece band made up of friends who
+      The Unknown Boys Band began their musical journey in 2010. It was a four-piece band made up of friends who
       enjoyed making music together. The band has grown to six members.<br><br>
 
     </p>
   </div>
-  <div class="parallax-section-2" id="music-store">  <!--Start Nav Section 3 -->
-    <div class="product-text">
-      <h2>
-        Album Listings
-      </h2>
+</div>
+<div class="container">
+  <div class="row mb-0" id="music-store">
+    <div class="row" id="store-header">
+      <h2 class="display-3">Album Listings</h2>
     </div>
-    <div class="product-row"> <!--Start Music Store section-->
-      <div class="col-1-4">
-        <img src="img/album-art/alb-1.jpg" class="album-art" alt="The-Beginning">
+    <div class="row product-row">
+      <div class="col-sm">
+        <img src="http://localhost/assignment-bootstrap/img/album-art/alb-1.jpg" class="rounded-lg album-art" alt="The-Beginning">
         <h3 class="album-title">The Beginning (Beninging)</h3>
         <h4 class="item-price">KSh. 800.00</h4>
         <form action="#music-store">
-          <input type="submit" value="Add To Cart" class="add-cart" />
+          <input type="hidden" value="Add To Cart"/>
+          <button class="add-cart" type="submit" id="btnSubmit1">Add to Cart</button>
+          <div class="alert alert-success collapse" id="successAlert1">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            Successfully added to cart.
+          </div>
         </form>
       </div>
-      <div class="col-2-4">
-        <img src="img/album-art/alb-2.jpg" class="album-art" alt="Exodus-Aluta-Continua">
+      <div class="col-sm">
+        <img src="http://localhost/assignment-bootstrap/img/album-art/alb-2.jpg" class="rounded-lg album-art" alt="Exodus-Aluta-Continua">
         <h3 class="album-title">Exodus: Aluta Continua</h3>
         <h4 class="item-price">KSh. 800.00</h4>
         <form action="#music-store">
-          <input type="submit" value="Add To Cart" class="add-cart" />
+          <input type="hidden" value="Add To Cart"/>
+          <button class="add-cart" type="submit" id="btnSubmit2">Add to Cart</button>
+          <div class="alert alert-success collapse" id="successAlert2">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            Successfully added to cart.
+          </div>
         </form>
       </div>
-      <div class="col-3-4">
-        <img src="img/album-art/alb-3.jpg" class="album-art" alt="Merge-Three-Become-One">
+      <div class="col-sm">
+        <img src="http://localhost/assignment-bootstrap/img/album-art/alb-3.jpg" class="rounded-lg album-art" alt="Merge-Three-Become-One">
         <h3 class="album-title">Merge: Three Become One</h3>
         <h4 class="item-price">KSh. 800.00</h4>
         <form action="#music-store">
-          <input type="submit" value="Add To Cart" class="add-cart" />
+          <input type="hidden" value="Add To Cart"/>
+          <button class="add-cart" type="submit" id="btnSubmit3">Add to Cart</button>
+          <div class="alert alert-success collapse" id="successAlert3">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            Successfully added to cart.
+          </div>
         </form>
       </div>
-      <div class="col-4-4">
-        <img src="img/album-art/alb-4.jpg" class="album-art" alt="Trends-Mr-Jones-And-Me">
+      <div class="col-sm">
+        <img src="http://localhost/assignment-bootstrap/img/album-art/alb-4.jpg" class="rounded-lg album-art" alt="Trends-Mr-Jones-And-Me">
         <h3 class="album-title">Trends: Mr. Jones and Me</h3>
         <h4 class="item-price">KSh. 800.00</h4>
         <form action="#music-store">
-          <input type="submit" value="Add To Cart" class="add-cart" />
+          <input type="hidden" value="Add To Cart"/>
+          <button class="add-cart" type="submit" id="btnSubmit4">Add to Cart</button>
+          <div class="alert alert-success collapse" id="successAlert4">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            Successfully added to cart.
+          </div>
         </form>
       </div>
-    </div> <!--End Music Store section-->
-  </div> <!--End Nav Section 3 -->
-  <div class="parallax-section-3" id="contacts-about">
-    <h2>
-      Contacts and About Us
-    </h2>
-    <p>
-
-    </p>
+    </div>
   </div>
 </div>
-</body>
+<div class="container">
+  <div class="row" id="contacts-about">
+<!--    <div class="alert alert-dark">-->
+      <div class="row" id="contacts-title">
+        <h2 class="display-3">
+          Talk To Us!
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h3>Facebook</h3>
+        </div>
+        <div class="col-sm">
+          <h3>Twitter</h3>
+        </div>
+        <div class="col-sm">
+          <h3>Instagram</h3>
+        </div>
+        <div class="col-sm">
+          <h3>Whatsapp</h3>
+        </div>
+      </div>
+    </div>
+<!--  </div>-->
+</div>
+<!--<script type="text/javascript" src="js/bootstrapredesign.js"/>-->
+<!--&lt;!&ndash;jQuery Load Scripts&ndash;&gt;-->
+<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"-->
+<!--        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"-->
+<!--        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--&lt;!&ndash;End load jQuery Scripts&ndash;&gt;-->
 
+<!--<script type="text/javascript">-->
+<!--  // $(document).ready(function (){-->
+<!--  $(function (){-->
+<!--    // $('#btnSubmit').click(function (){-->
+<!--    $('#btnSubmit').trigger("click",function (){-->
+<!--      $('#myAlert').show('slow');-->
+<!--    });-->
+<!--  });-->
+<!--</script>-->
+<!--<script type="text/javascript">-->
+<!--  $('#btnSubmit').click(function() {-->
+<!--    // update( $( "span" ).first() );-->
+<!--    $('#successAlert').show('slow')-->
+<!--  });-->
+<!--</script>-->
+</body>
 </html>
