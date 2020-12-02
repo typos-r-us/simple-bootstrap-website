@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe94d9e8-9f00-4e07-8c21-5918376d7a28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/cartstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrapredesign.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assignment-23-oct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-23-oct.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carttest.html" beforeDir="false" afterPath="$PROJECT_DIR$/carttest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -88,18 +85,34 @@
       <workItem from="1606738967365" duration="19000" />
       <workItem from="1606739171969" duration="21000" />
       <workItem from="1606755436565" duration="19523000" />
-      <workItem from="1606830224660" duration="3186000" />
+      <workItem from="1606830224660" duration="5370000" />
     </task>
+    <task id="LOCAL-00001" summary="December 02&#10;1. Replaced basic input elements within forms in music store with buttons.&#10;2. Added dedicated stylesheet for carttest.html (cartstyles.css).&#10;3. Still working on populating cart items into the carttest.html body.&#10;4. Working to add &quot;success alerts&quot; when item added to cart.">
+      <created>1606916705133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606916705133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="December 02&#10;1. Replaced basic input elements within forms in music store with buttons.&#10;2. Added dedicated stylesheet for carttest.html (cartstyles.css).&#10;3. Still working on populating cart items into the carttest.html body.&#10;4. Working to add &quot;success alerts&quot; when item added to cart." />
+    <option name="LAST_COMMIT_MESSAGE" value="December 02&#10;1. Replaced basic input elements within forms in music store with buttons.&#10;2. Added dedicated stylesheet for carttest.html (cartstyles.css).&#10;3. Still working on populating cart items into the carttest.html body.&#10;4. Working to add &quot;success alerts&quot; when item added to cart." />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604593806111">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1604593806111" />
+    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1606916698564">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1606916698564" />
     <state x="463" y="113" key="FileChooserDialogImpl" timestamp="1603621483514">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -108,6 +121,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1606764590825" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1606917375759">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1606917375759" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1606764419645">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
